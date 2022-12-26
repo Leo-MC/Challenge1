@@ -4,3 +4,9 @@
     margin: 0 auto;
     background: grey;
 }
+.btnencriptar{
+    display: inline-block;
+}
+.btndesencriptar{
+    display: inline-block;
+}
