@@ -1,42 +1,137 @@
 
 .container{
-    width: 940px;
+    position: relative;
+    width: 1366;
     height: 630px;
-    margin: 0 auto;
-    background: black;
+    background: #F3F5FC;
 }
 .logo{
-    /*position: relative;
-    width: 120px;
-    height: 48px;
-    left: 40px;
-    top: 40px;*/
-    background: pink;
+    position: absolute;
+    width: 114px;
+    height: 44px;
+    left: 38px;
+    top: 25px;
 }
 .imglogo{
-    width: auto;
-    height: 48px;
-    left: 44px;
+    height: 44px;
+    width: 31.085588455200195px;
+    left: 42px;
+    top: 0px;
+    border-radius: 0px;    
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
 }
 .textoingresado{
-    background: red;
+    position: absolute;
+    width: 547px;
+    height: 30px;
+    left: 228px;
+    top: 103px;
 }
 .cuadroTexto{
+    border: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    width: 547px;
+    height: 30px;
+    left: 228px;
+    top: 103px;
+}
+.textoencriptado{
+    background: red;
+    position: absolute;
+    width: 379px;
+    height: 581px;
+    left: 949px;
+    top: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.imgmuñeco{
+    position: absolute;
+    width: 319px;
+    height: 187px;
+    left: 30px;
+    margin-top: 174px;
+}
+.mnsjsresultado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 319px;
+    height: 75px;
+    left: 30px;
+    top: 381px;
+}
+.mnsj{
+    width: 319px;
+    height: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #343A40;
+}
+.mnsj2{
+    width: 319px;
+    height: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+
 }
 .botones{
-    background: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 645px;
+    height: 41px;
+    left: 228px;
+    top: 544px;
 }
-.btnencriptar{
-    display: inline-block;
+.btnen{
+    padding: 24px;  
+    width: 311px;
+    height: 41px;
+    
     background: #0A3871;
-    border-radius: 24px;
+    border-radius: 18px;
 }
 
-.btndesencriptar{
-    display: inline-block;
+.btndes{    
+    padding: 24px;
+    width: 311px;
+    height: 41px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 18px;
+
 }
