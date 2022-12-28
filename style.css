@@ -1,12 +1,42 @@
 
 .container{
     width: 940px;
+    height: 630px;
     margin: 0 auto;
-    background: grey;
+    background: black;
+}
+.logo{
+    /*position: relative;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;*/
+    background: pink;
+}
+.imglogo{
+    width: auto;
+    height: 48px;
+    left: 44px;
+}
+.textoingresado{
+    background: red;
+}
+.cuadroTexto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.botones{
+    background: blue;
 }
 .btnencriptar{
     display: inline-block;
+    background: #0A3871;
+    border-radius: 24px;
 }
+
 .btndesencriptar{
     display: inline-block;
 }
