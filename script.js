@@ -19,6 +19,8 @@ function encriptar() {
     document.getElementById("btncopiar").style.display = "inherit";
     document.getElementById("texto2").style.display = "show";
     document.getElementById("texto2").style.display = "inherit";
+
+    cuadrotexto.value = "";
 }
 function desencriptar(){
     var texto = document.getElementById("cuadrotexto").value.toLowerCase();
@@ -37,9 +39,12 @@ function desencriptar(){
     document.getElementById("btncopiar").style.display = "inherit";
     document.getElementById("texto2").style.display = "show";
     document.getElementById("texto2").style.display = "inherit";
+
+    cuadrotexto.value = "";
 }
 function copiar () {
     var contenido = document.querySelector("#texto2");
     contenido.select();
     document.execCommand("copy");
+    cuadrotexto.focus();
 }

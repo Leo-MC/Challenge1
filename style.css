@@ -1,36 +1,33 @@
 
+body{
+    background: #F3F5FC;
+}
 .container{
-    position: relative;
-    width: 1366;
-    height: 630px;
+    margin: auto;
+    width: 960px;
+    height: 650px;
     background: #F3F5FC;
 }
 .logo{
-    position: absolute;
-    width: 114px;
-    height: 44px;
-    left: 38px;
-    top: 25px;
+    position: relative;
+    width: 11.7%;
+    height: 4.7%;
+    top: 2.7%;
+    float: left;
 }
 .imglogo{
-    height: 44px;
-    width: 27%;
-    left: 42px;
-    top: 0px;
-    border-radius: 0px;    
-    position: absolute;
-    left: 36.67%;
-    right: 37.43%;
-    top: 0%;
-    bottom: 0%;
+    position: relative;
+    width: 25.9%;
+    height: 100%;
+    margin: 0 38%;
 }
 .textoingresado{
-    position: absolute;
-    width: 70%;
-    height: 70%;
-    left: 228px;
-    top: 103px;
+    position: relative;
+    width: 55%;
+    height: 50%;
+    top: 16.4%;
     border: none;
+    display: inline-block;
 }
 #cuadrotexto{
     border: none;
@@ -39,10 +36,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    width: 70%;
+    width: 100%;
     height: 70%;
-    left: 228px;
-    top: 103px;
     background: #F3F5FC;
     resize: none;
     color: #0A3871;
@@ -51,40 +46,35 @@
     color: #0A3871;
 }
 .textoencriptado{
-    background: red;
-    position: absolute;
-    width: 379px;
-    height: 581px;
-    left: 949px;
-    top: 25px;
+    position: relative;
+    width: 25%;
+    height: 92%;
+    top: 2.7%;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    display: inline-block;
+    float: right;
+    margin-right: 3%;
 }
-#imgmuñeco{
-    position: absolute;
-    width: 319px;
-    height: 187px;
-    left: 30px;
-    margin-top: 174px;
+.containermuñeco .imgmuñeco2{
+    position: relative;
+    width: 95%;
+    height: 40%;
+    margin: auto;
+    top: 40%;
 }
-
 #mnsjsresultado{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-
-    position: absolute;
-    width: 319px;
+    position: relative;
+    width: 90%;
     height: 75px;
-    left: 30px;
-    top: 381px;
+    margin: 0 auto;
 }
 .mnsj{
-    width: 319px;
-    height: 36px;
+    position: relative;
+    width: 100%;
+    height: 70%;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -96,13 +86,14 @@
     color: #343A40;
 }
 .mnsj2{
-    width: 319px;
-    height: 30px;
+    position: relative;
+    width: 100%;
+    height: 30%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
 
     text-align: center;
@@ -110,19 +101,22 @@
     color: #495057;
 }
 #texto2{
-    margin-top: 10px;
-    margin-left: 10px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 95%;
+    height: 30%;
     border: none;
     display: none;
     resize: none;
 }
 #btncopiar{
     display: none;
-    position: absolute;
-    width: 311px;
-    height: 44px;
-    left: 30px;
-    top: 520px;
+    position: relative;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    top: 55%;
 
     /* Dark blue/dark-blue-300 */
 
@@ -130,35 +124,29 @@
     border-radius: 18px;
 }
 .botones{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-
-    position: absolute;
-    width: 645px;
-    height: 41px;
-    left: 228px;
-    top: 544px;
+    position: relative;
+    width: 50%;
+    height: 10%;
+    left: 10%;
+    top: 32%;
 }
 .contenedoraviso{
-
-    position: absolute;
-    width: 217px;
-    height: 11px;
-    left: 228px;
-    top: 520px;
+    position: relative;
+    width: 35%;
+    height: 2%;
+    left: 10%;
+    top: 30%;
+    display: inline-block;
 }
 .simbolo{
     display: inline;
     width: 5%;
-    height: 11px;
+    height: 100%;
 }
 .aviso{
     display: inline;
-    width: 205px;
-    height: 18px;
+    width: 40%;
+    height: 100%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -171,21 +159,33 @@
 }
 .btnen{
     padding: 24px;  
-    width: 311px;
-    height: 41px;
+    width: 100%;
+    height: 100%;
     color: white;
     background: #0A3871;
     border-radius: 18px;
+    display: inline;
 }
 
 .btndes{    
     padding: 24px;
-    width: 311px;
-    height: 41px;
+    width:100%;
+    height: 100%;
     color: #0A3871;
     background: #D8DFE8;
 
     border: 2px solid #0A3871;
     border-radius: 18px;
-
+}
+.btndesencriptar, .btnencriptar{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin: 0 0 0 5%;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #343A40;
 }
