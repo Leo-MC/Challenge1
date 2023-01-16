@@ -41,6 +41,7 @@ function desencriptar(){
     document.getElementById("texto2").style.display = "inherit";
 
     cuadrotexto.value = "";
+    
 }
 function copiar () {
     var contenido = document.querySelector("#texto2");

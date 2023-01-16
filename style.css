@@ -189,3 +189,150 @@ body{
     text-align: center;
     color: #343A40;
 }
+@media screen and (max-width: 800px) {
+    .container{
+        height: 1174px;
+    }
+    .textoingresado{
+        float: none;
+        width: 688px;
+        margin: 0 auto;
+        height: 288px;
+    }
+    #cuadrotexto{
+        height: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+    .botones{
+        position: absolute;
+        width: 760px;
+        height: 116px;
+        left: 40px;
+        top: 870px;
+    }
+    .btnencriptar, .btndesencriptar{
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        width: 332px;
+        height: 67px;
+        display: inline-block;
+    }
+    .btndes, .btnen{
+        width: 284px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+    }
+    .textoencriptado{
+        float: none;
+        position: absolute;
+        width: 688px;
+        height: 133px;
+        left: 40px;
+        top: 1001px;
+        margin: 0 auto;
+    }
+    .contenedoraviso{
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 40px;
+        top: 836px;
+    }
+    .aviso{
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .containermuñeco{
+        display: none;
+    }
+    .copyright{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    #btncopiar{
+
+        width: 624px;
+        height: 67px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #texto2{
+        height: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 460px) {
+    .container{
+        width: 100%;
+        height: 933px;
+    }
+    .textoingresado{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .botones{
+        height: 158px;
+    }
+    .botones, .btnencriptar, .btndesencriptar, .texto2, .textoencriptado{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        gap: 8px;
+    }
+    .btndes, .btnen{
+        width: 100%;
+        height: 67px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+    #btncopiar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .copyright{
+        position: relative;
+        top: 300px;
+    }
+    .textoingresado{
+        top: 50px;
+    }
+    .contenedoraviso{
+        top: 600px;
+    }
+    .botones{
+        top: 650px;
+    }
+    .textoencriptado{
+        top: 850px;
+    }
+}
